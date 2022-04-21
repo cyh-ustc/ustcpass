@@ -1,0 +1,29 @@
+{
+	"manifest_version": 2,
+	"name": "ustcpass",
+	"version": "0.1",
+	"description": "ustcpass",
+	"author": "cyh",
+	"icons":
+	{
+		"48": "icon.png",
+		"128": "icon.png"
+	},
+	"browser_action":
+	{
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+	"content_scripts":
+	[
+		{
+			"matches": ["https://passport.ustc.edu.cn/login*"],
+			"js": ["content-script.js"],
+			"run_at":"document_start"
+		}
+	],
+	"web_accessible_resources":
+	[
+		"main.js"
+	]
+}
