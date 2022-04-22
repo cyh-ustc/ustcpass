@@ -3,6 +3,9 @@
 
 # Chrome应用商店：
 
+# microsoft edge插件市场：
+
+https://microsoftedge.microsoft.com/addons/detail/ustcpass/hbdkmpdpjgdimjopgeklhhejedmpiioj?hl=zh-CN
 
 # 开发模式使用：
 1. 将Releases中"Source code.zip"，随便解压缩到一个目录。
