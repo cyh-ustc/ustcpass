@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "ustcpass",
 	"version": "0.1",
-	"description": "ustcpass",
+	"description": "中科大统一身份认证验证码自动填写",
 	"author": "cyh",
 	"icons":
 	{
