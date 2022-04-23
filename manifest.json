@@ -19,7 +19,7 @@
 		{
 			"matches": ["https://passport.ustc.edu.cn/login*"],
 			"js": ["content-script.js"],
-			"run_at":"document_start"
+			"run_at":"document_end"
 		}
 	],
 	"web_accessible_resources":
